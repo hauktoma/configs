@@ -1,0 +1,10 @@
+out_to_console yes
+out_to_x no
+background no
+update_interval 1
+total_run_times 0
+use_spacer none
+double_buffer yes
+
+TEXT
+[${cpu cpu1}%::${cpu cpu2}%::${cpu cpu3}::${cpu cpu4}] [$memperc%::$mem] [$swap] [$uptime_short] [${exec ~/apps/cmus-conky.sh}] [${exec xkblayout-state print "%s"}] :: ${time %e %b %Y %a :: %k:%M}

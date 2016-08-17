@@ -1,0 +1,2 @@
+#!/bin/sh
+feh  --bg-fill '/home/hauktoma/pictures/linux_wallpapers/concrete-arch-light.jpg' 
